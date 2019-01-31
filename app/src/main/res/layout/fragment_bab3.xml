@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bab3Fragment"
+    android:background="@color/background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I . فحص - يفحص = Memeriksa"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/u"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II. صعد - يصعد = Naik"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/v"
+                android:layout_below="@id/u"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="III. نزل - ينزل = Turun"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/w"
+                android:layout_below="@id/v"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IV. جري - يجري = Lari"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/x"
+                android:layout_below="@id/w"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="V. سلم = Tangga"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/y"
+                android:layout_below="@id/x"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VI. تسلق - يتسلق = Memanjat"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/z"
+                android:layout_below="@id/y"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VII. عبر - يعبر= Menyebrang"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/a1"
+                android:layout_below="@id/z"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VIII. مر - يمر = Melewati"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/a2"
+                android:layout_below="@id/a1"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IX. اشارة المرور = Lampu Lalin"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/a3"
+                android:layout_below="@id/a2"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="X. رصيق = Trotoar"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/a4"
+                android:layout_below="@id/a3"
+                android:layout_marginTop="20sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

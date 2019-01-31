@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bab2Fragment"
+    android:background="@color/background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I . ساءل - يسأل = Bertanya"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/k"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="II. اتبع - يتبع = Mengikuti "
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/l"
+                android:layout_below="@id/k"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="III. تمهل - يتمهل = Pelan-pelan"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/m"
+                android:layout_below="@id/l"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IV. حماسة = Semangat"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/n"
+                android:layout_below="@id/m"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="V. هادىء = Tenang"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/n"
+                android:layout_below="@id/d"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VI. امتحان = Ujian"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/p"
+                android:layout_below="@id/n"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VII. ناد - ينادي = Memanggil"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/q"
+                android:layout_below="@id/p"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VIII. سجل - يسجل = Mendaftar"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/r"
+                android:layout_below="@id/q"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IX.دواء = Obat"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/s"
+                android:layout_below="@id/r"
+                android:layout_marginTop="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="X.صيدلية = Apotek"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:id="@+id/t"
+                android:layout_below="@id/s"
+                android:layout_marginTop="20sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
